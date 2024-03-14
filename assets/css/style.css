@@ -353,11 +353,12 @@ header ul li a.active {
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.05);
   border-radius: 1rem;
   backdrop-filter: blur(1rem);
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  /*ORIGINAL BORDERS 0.25 0.5 0.5*/
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-left: 1px solid rgba(255, 255, 255, 0.05);
   padding: 40px;
-  margin-inline: 50px;
+  /* margin-inline: 50px; */
   margin-right: 0px;
 }
 
@@ -547,7 +548,7 @@ header ul li a.active {
   list-style: none;
   font-size: 3rem;
   margin-bottom: 0;
-  margin-top: 0;
+  margin-top: 1%;
   text-align: center;
 }
 
@@ -572,6 +573,30 @@ header ul li a.active {
 
 .software-skill-inline i:hover p {
   color: #645beb;
+}
+
+.java i {
+  color: #868e96;
+}
+
+.java i:hover {
+  color: #e06c00;
+}
+
+.cs i {
+  color: #868e96;
+}
+
+.cs i:hover {
+  color: #280068;
+}
+
+.sql i {
+  color: #868e96;
+}
+
+.sql i:hover {
+  color: #03599c;
 }
 
 .c i {
